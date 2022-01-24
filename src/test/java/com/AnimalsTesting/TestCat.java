@@ -11,7 +11,6 @@ public class TestCat {
     public void testCatSetSize(){
         Cat testCat = new Cat();
         assertEquals( 14, testCat.setSize(14), "The set size method for cat did not return the correct size.");
-
     }
 
     @Test
