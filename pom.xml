@@ -40,7 +40,7 @@
                                         <limit>
                                             <counter>LINE</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.1</minimum>
+                                            <minimum>0.0</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
@@ -49,7 +49,7 @@
                     </execution>
                     <execution>
                         <goals>
-                             <goal>prepare-agent</goal>
+                            <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution>
