@@ -1,4 +1,4 @@
-package com.Animals;
+package com.animals;
 
 public abstract class Animals {
 
@@ -10,13 +10,13 @@ public abstract class Animals {
     ///////Methods////////
     public abstract void eat(String food);
 
-    public void sleep(int sleepTime){
+    public void sleep(int sleepTime) {
         //this.wait(sleepTime);
     }
 
     public abstract Animals reproduce();
 
-    public abstract String Breathe();
+    public abstract String breathe();
 
     public String excrete(){
         return "poop";

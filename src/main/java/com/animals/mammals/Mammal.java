@@ -1,6 +1,6 @@
-package com.Animals.Mammals;
+package com.animals.mammals;
 
-import com.Animals.Animals;
+import com.animals.Animals;
 
 public abstract class Mammal extends Animals {
     ////Attributes////

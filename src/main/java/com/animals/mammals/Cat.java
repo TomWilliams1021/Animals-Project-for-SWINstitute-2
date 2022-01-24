@@ -1,4 +1,4 @@
-package com.Animals.Mammals;
+package com.animals.mammals;
 
 public class Cat extends Mammal {
     ////Attributes////

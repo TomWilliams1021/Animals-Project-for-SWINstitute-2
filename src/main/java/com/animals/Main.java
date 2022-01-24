@@ -1,5 +1,5 @@
-package com.Animals;
-import com.Animals.Mammals.Cat;
+package com.animals;
+import com.animals.mammals.Cat;
 
 public class Main {
 
