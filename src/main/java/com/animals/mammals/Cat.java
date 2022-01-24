@@ -5,7 +5,7 @@ public class Cat extends Mammal {
 
     ////Constructors////
 
-    ////Methods////
+    ////Methods/////
     public void eat(String food){
         this.setSize(this.getSize() + 1);
     }
