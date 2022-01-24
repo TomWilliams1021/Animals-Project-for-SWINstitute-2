@@ -15,8 +15,15 @@ public class TestCat {
     }
 
     @Test
+    public void testBreathe(){
+        Cat testCat = new Cat();
+        assertEquals("I am breathing", testCat.breathe(), "The breathe method for cat did not return the correct string fora cat object.");
+    }
+
+    @Test
     public void testCatReproduce(){
         Cat testCat = new Cat();
         assertEquals(12, testCat.reproduce().getSize(), "The reproduce method for cat did not return the correct size for a new cat object." );
     }
+
 }

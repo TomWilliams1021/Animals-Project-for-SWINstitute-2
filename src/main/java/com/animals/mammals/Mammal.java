@@ -9,7 +9,7 @@ public abstract class Mammal extends Animals {
     ////Constructors////
 
     ////Methods////
-    public String Breathe(){
+    public String breathe(){
         return "I am breathing";
     }
 
