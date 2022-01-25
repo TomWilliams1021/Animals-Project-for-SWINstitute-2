@@ -36,6 +36,25 @@ public class TestCat {
     @Test
     public void testCatExcrete(){
         Cat testCat = new Cat();
-        assertEquals("poop", testCat.excrete(), "The cat excrete did not return the expected string\"poop\".");
+        assertEquals("poop", testCat.excrete(), "The cat excrete method did not return the expected string\"poop\".");
+    }
+
+    @Test
+    public void testCatDie(){
+        Cat testCat = new Cat();
+        assertEquals("dead", testCat.die(), "The cat die method did not return the expected string\"dead\".");
+    }
+
+    @Test
+    public void testCatGetAge(){
+        Cat testCat = new Cat();
+        assertEquals(1, testCat.getAge(), "The cat age get method did not return the expected default age integer.");
+    }
+
+    @Test
+    public void testCatSetAge(){
+        Cat testCat = new Cat();
+        testCat.setAge(3);
+        assertEquals(3, testCat.getAge(), "The cat set age method did not update the age field to be the expected value.");
     }
 }

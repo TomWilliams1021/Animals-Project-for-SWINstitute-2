@@ -3,7 +3,7 @@ package com.animals;
 public abstract class Animals {
 
     ///////Attributes///////
-    private int age;
+    private int age = 1;
 
     ///////Constructors///////
 
@@ -22,8 +22,8 @@ public abstract class Animals {
         return "poop";
     }
 
-    public void die(){
-        //Dead
+    public String die(){
+        return "dead";
     }
 
     public int getAge(){
