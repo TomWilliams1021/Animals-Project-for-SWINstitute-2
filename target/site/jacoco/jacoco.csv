@@ -1,4 +1,6 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Animals,com.animals.birds,Pidgeon,0,15,0,0,0,4,0,3,0,3
+Animals,com.animals.birds,Birds,0,16,0,0,0,6,0,4,0,4
 Animals,com.animals,Main,10,0,0,0,4,0,3,0,3,0
 Animals,com.animals,Animals,1,25,0,0,1,9,1,5,1,5
 Animals,com.animals.mammals,Dog,0,15,0,0,0,4,0,3,0,3

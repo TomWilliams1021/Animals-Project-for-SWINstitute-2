@@ -9,13 +9,14 @@ public class TestCat {
     @Test
     public void testCatSetSize(){
         Cat testCat = new Cat();
-        assertEquals( 14, testCat.setSize(14), "The set size method for cat did not return the correct size.");
+        testCat.setSize(14);
+        assertEquals( 14, testCat.getSize(), "The set size method for cat did not return the correct size.");
     }
 
     @Test
     public void testBreathe(){
         Cat testCat = new Cat();
-        assertEquals("I am breathing", testCat.breathe(), "The breathe method for cat did not return the correct string fora cat object.");
+        assertEquals("I am breathing", testCat.breathe(), "The breathe method for cat did not return the correct string for a cat object.");
     }
 
     @Test
