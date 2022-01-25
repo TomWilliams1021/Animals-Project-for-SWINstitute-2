@@ -4,10 +4,11 @@ import com.animals.mammals.Cat;
 <span class="nc" id="L4">public class Main {</span>
 
     public static void main(String[] args){
-<span class="nc" id="L7">        Cat cat1 = new Cat();</span>
-<span class="nc" id="L8">        Cat cat2 = new Cat();</span>
-<span class="nc" id="L9">        System.out.println(cat1);</span>
-<span class="nc" id="L10">        System.out.println(cat2);</span>
-<span class="nc" id="L11">    }</span>
+<span class="nc" id="L7">        Cat cat1 = createCat();</span>
+<span class="nc" id="L8">    }</span>
+
+    public static Cat createCat(){
+<span class="nc" id="L11">        return new Cat();</span>
+    }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
