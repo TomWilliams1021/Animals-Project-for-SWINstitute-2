@@ -11,8 +11,8 @@ public class Dog extends Mammal{
         this.setSize(this.getSize() + 1);
     }
 
-    public Cat reproduce(){
+    public Dog reproduce(){
 
-        return new Cat();
+        return new Dog();
     }
 }
