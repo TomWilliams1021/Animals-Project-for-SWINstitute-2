@@ -4,7 +4,8 @@ public abstract class Animals {
 
     ///////Attributes///////
     private int age = 1;
-
+    private String die = "dead";
+    private String excrete = "poop";
     ///////Constructors///////
 
     ///////Methods////////
@@ -19,11 +20,11 @@ public abstract class Animals {
     public abstract String breathe();
 
     public String excrete(){
-        return "poop";
+        return excrete;
     }
 
     public String die(){
-        return "dead";
+        return die;
     }
 
     public int getAge(){
