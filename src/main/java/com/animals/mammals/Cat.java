@@ -7,10 +7,12 @@ public class Cat extends Mammal {
 
     ////Methods//////
     public void eat(String food){
+
         this.setSize(this.getSize() + 1);
     }
 
     public Cat reproduce(){
+
         return new Cat();
     }
 }
