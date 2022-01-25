@@ -2,7 +2,7 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 Animals,com.animals.birds,Pidgeon,0,15,0,0,0,4,0,3,0,3
 Animals,com.animals.birds,Birds,0,16,0,0,0,6,0,4,0,4
 Animals,com.animals,Main,10,0,0,0,4,0,3,0,3,0
-Animals,com.animals,Animals,1,25,0,0,1,9,1,5,1,5
-Animals,com.animals.mammals,Dog,0,15,0,0,0,4,0,3,0,3
-Animals,com.animals.mammals,Mammal,0,16,0,0,0,6,0,4,0,4
-Animals,com.animals.mammals,Cat,0,15,0,0,0,4,0,3,0,3
+Animals,com.animals,Animals,1,25,0,0,1,10,1,5,1,5
+Animals,com.animals.mammals,Dog,0,22,0,0,0,7,0,3,0,3
+Animals,com.animals.mammals,Mammal,0,16,0,0,0,7,0,4,0,4
+Animals,com.animals.mammals,Cat,0,22,0,0,0,7,0,3,0,3

@@ -2,24 +2,26 @@
 
 import com.animals.Animals;
 
-<span class="fc" id="L5">public abstract class Mammal extends Animals {</span>
+public abstract class Mammal extends Animals {
     ////Attributes////
-<span class="fc" id="L7">    private int size = 12;</span>
+    private int size;
 
     ////Constructors////
-
+<span class="fc" id="L10">    public Mammal(){</span>
+<span class="fc" id="L11">        this.size = 12;</span>
+<span class="fc" id="L12">    }</span>
     ////Methods////
     public String breathe(){
-<span class="fc" id="L13">        return &quot;I am breathing&quot;;</span>
+<span class="fc" id="L15">        return &quot;I am breathing&quot;;</span>
     }
 
     public int getSize(){
-<span class="fc" id="L17">        return size;</span>
+<span class="fc" id="L19">        return size;</span>
     }
 
     public int setSize(int size){
-<span class="fc" id="L21">        this.size = size;</span>
-<span class="fc" id="L22">        return size;</span>
+<span class="fc" id="L23">        this.size = size;</span>
+<span class="fc" id="L24">        return size;</span>
     }
 
     public abstract Mammal reproduce();

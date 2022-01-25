@@ -3,11 +3,15 @@ package com.animals;
 public abstract class Animals {
 
     ///////Attributes///////
-    private int age = 1;
-    private String die = "dead";
-    private String excrete = "poop";
+    private int age;
+    private String die;
+    private String excrete;
     ///////Constructors///////
-
+    public Animals(){
+        this.age = 1;
+        this.die = "dead";
+        this.excrete = "poop";
+    }
     ///////Methods////////
     public abstract void eat(String food);
 
@@ -31,7 +35,7 @@ public abstract class Animals {
         return age;
     }
 
-    public void setAge(int age){
-        this.age = age;
+    public void setAge(int newAge){
+        age = newAge;
     }
 }

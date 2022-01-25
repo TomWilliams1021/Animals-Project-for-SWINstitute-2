@@ -4,10 +4,12 @@ import com.animals.Animals;
 
 public abstract class Mammal extends Animals {
     ////Attributes////
-    private int size = 12;
+    private int size;
 
     ////Constructors////
-
+    public Mammal(){
+        this.size = 12;
+    }
     ////Methods////
     public String breathe(){
         return "I am breathing";

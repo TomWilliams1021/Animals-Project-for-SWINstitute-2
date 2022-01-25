@@ -7,6 +7,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestCat {
 /////
     @Test
+    public void testCatGetSize(){
+        Cat testCat = new Cat();
+        assertEquals(8, testCat.getSize(), "The get size method did not return the correct size value for a cat.");
+    }
+    @Test
     public void testCatSetSize(){
         Cat testCat = new Cat();
         testCat.setSize(14);
@@ -22,7 +27,7 @@ public class TestCat {
     @Test
     public void testCatReproduce(){
         Cat testCat = new Cat();
-        assertEquals(12, testCat.reproduce().getSize(), "The reproduce method for cat did not return the correct size for a new cat object." );
+        assertEquals(8, testCat.reproduce().getSize(), "The reproduce method for cat did not return the correct size for a new cat object." );
     }
 
     @Test
@@ -48,7 +53,7 @@ public class TestCat {
     @Test
     public void testCatGetAge(){
         Cat testCat = new Cat();
-        assertEquals(1, testCat.getAge(), "The cat age get method did not return the expected default age integer.");
+        assertEquals(2, testCat.getAge(), "The cat age get method did not return the expected default age integer.");
     }
 
     @Test

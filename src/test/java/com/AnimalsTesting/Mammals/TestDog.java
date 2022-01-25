@@ -1,11 +1,18 @@
 package com.AnimalsTesting.Mammals;
 
+import com.animals.mammals.Cat;
 import com.animals.mammals.Dog;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestDog {
+
+    @Test
+    public void testDogGetSize(){
+        Dog testDog = new Dog();
+        assertEquals(13, testDog.getSize(), "The get size method did not return the correct size value for a cat.");
+    }
 
     @Test
     public void testDogEat(){
@@ -18,6 +25,6 @@ public class TestDog {
     @Test
     public void testDogReproduce(){
         Dog testDog = new Dog();
-        assertEquals(12, testDog.reproduce().getSize(), "The reproduce method for dog did not return the correct size for a new dog object." );
+        assertEquals(13, testDog.reproduce().getSize(), "The reproduce method for dog did not return the correct size for a new dog object." );
     }
 }

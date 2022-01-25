@@ -4,7 +4,10 @@ public class Dog extends Mammal{
     //Attributes//
 
     //Constructors//
-
+    public Dog(){
+        this.setAge(5);
+        this.setSize(13);
+    }
     //Methods//
     public void eat(String food){
 
